@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y default-mysql-client
 WORKDIR /app
 
 # Copy the application JAR file to the container
-COPY ./target/polls-0.0.1-SNAPSHOT.jar polls-0.0.1-SNAPSHOT.jar
+COPY ./target2/polls-0.0.1-SNAPSHOT.jar polls-0.0.1-SNAPSHOT.jar
 
 # Expose the port your application listens on
 EXPOSE 8080
